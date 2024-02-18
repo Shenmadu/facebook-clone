@@ -4,3 +4,11 @@
   font-weight:500 !important;
   font-size: large !important;
 }
+.no-underline{
+  text-decoration: none;
+}
+.desc{
+  line-height: 1;
+  font-size: 30px !important;
+  font-weight: 400 !important;
+}
