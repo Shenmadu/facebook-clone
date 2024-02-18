@@ -13,8 +13,8 @@ function App() {
             <h1 className="display-4 fw-bold lh-1  mb-3" style={{ color: '#316FF6' }} >facebook</h1>
             <p className="col-lg-10 fs-3">Facebook helps you connect and share with the people in your life.</p>
           </div>
-          <div className="col-md-10  col-lg-5">
-            <form className="p-4 p-md-3 border rounded-3 bg-white mx-auto">
+          <div className="col col-lg-5">
+            <form className="p-4 p-md-3 border rounded-3 bg-white mx-auto mt-5">
               <div className="form-floating mb-2">
                 <input type="email" className="form-control" id="floatingInput" placeholder="name@example.com" />
                 <label for="floatingInput">Email address or phone number </label>
