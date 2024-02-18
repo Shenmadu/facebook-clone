@@ -1,5 +1,6 @@
 .account-btn{
   background-color: #68bc00 !important;
   border: none !important;
-  font-weight: bold !important;
+  font-weight:500 !important;
+  font-size: large !important;
 }
