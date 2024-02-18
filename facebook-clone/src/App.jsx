@@ -5,7 +5,7 @@ import './App.css'
 
 
 function App() {
-  return (    
+  return (
     <div className="container-flex bg-body-tertiary">
       <div className="container col-xl-10 col-xxl-8 px-4 ">
         <div className="row align-items-center g-lg-5 py-5">
@@ -24,19 +24,19 @@ function App() {
                 <label for="floatingPassword">Password</label>
               </div>
               <div className="mx-auto text-center">
-              
-              <button className="w-100 btn btn-lg btn-primary mb-2" type="submit">Log in</button>
-              <a href="" class="no-underline">Fogotten password?</a>
-              <hr className="my-4" />
-              <button className="w-60 btn btn-lg btn-success account-btn" type="submit">Create new account</button>
+
+                <button className="w-100 btn btn-lg btn-primary mb-2" type="submit">Log in</button>
+                <a href="" class="no-underline">Fogotten password?</a>
+                <hr className="my-4" />
+                <button className="w-60 btn btn-lg btn-success account-btn" type="submit">Create new account</button>
               </div>
             </form>
-            <p className='text-center mt-2'><span className='fw-bold'>Create a Page</span> for a celebrity, brand or business.</p>
+            <p className='text-center mt-3'><span className='fw-bold '><a href="" class="no-underline" style={{ color: 'black' }}>Create a Page</a></span> for a celebrity, brand or business.</p>
           </div>
         </div>
       </div>
-      </div>
-   
+    </div>
+
   )
 }
 
